@@ -41,8 +41,8 @@ function Home() {
                     <li><a onClick={handleClickStudent}>Estudiante</a></li>
                     <li><a onClick={handleClickRegistro}>Cursos</a></li>
                     <li><a onClick={handleClickDocentes}>Docentes</a></li>
-                    <li><a onClick={handleClickReporte}>Reporte</a></li>
-                    <li><a onClick={handleClickQR}>Generar QR</a></li>
+                    {/* <li><a onClick={handleClickReporte}>Reporte</a></li>
+                    <li><a onClick={handleClickQR}>Generar QR</a></li> */}
                     
                 </ul>
                 <span class={style.menuIcon} ></span>

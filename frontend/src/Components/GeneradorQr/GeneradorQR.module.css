@@ -1,0 +1,69 @@
+/* Estilos generales del contenedor */
+.container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el encabezado */
+.header {
+    margin-bottom: 2rem;
+}
+
+/* Estilos para el campo de búsqueda */
+.searchContainer {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchInput {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilos para el selector de estudiantes */
+.selectContainer {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectInput {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Estilos para el QR Code */
+.qrCodeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrCode {
+    margin-top: 1rem;
+}

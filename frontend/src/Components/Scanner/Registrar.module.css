@@ -1,0 +1,132 @@
+/* .container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } */
+
+  /* Registrar.module.css */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Ajusta según sea necesario */
+    margin: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .studentTableContainer {
+    overflow-y: auto;
+    max-height: 500px; /* Ajusta según sea necesario */
+  }
+  
+  .studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .studentTable th,
+  .studentTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .studentTable th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .studentTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .studentTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .title {
+    font-size: 1.8rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .studentTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .studentTable thead {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .studentTable th, .studentTable td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .studentTable th {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .studentTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .studentTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .studentTable td {
+    color: #495057;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 768px) {
+    .studentTable, .studentTable thead, .studentTable tbody, .studentTable th, .studentTable td, .studentTable tr {
+      display: block;
+    }
+  
+    .studentTable th {
+      background-color: #6c757d;
+    }
+  
+    .studentTable tr {
+      margin-bottom: 15px;
+    }
+  
+    .studentTable td {
+      padding: 10px;
+      text-align: right;
+      position: relative;
+    }
+  
+    .studentTable td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  

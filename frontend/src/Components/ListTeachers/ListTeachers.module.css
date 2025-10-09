@@ -1,0 +1,77 @@
+/* Estilos para la tabla de estudiantes */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+  border: 1px solid #0a67f2;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.875rem; /* Tamaño de letra reducido */
+}
+
+.table th {
+  background-color: #568af1;
+}
+
+/* Estilos para el contenedor de búsqueda */
+.searchContainer {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.875rem; /* Tamaño de letra reducido */
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilos para la paginación */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  padding: 0.5rem 0.75rem; /* Tamaño de botón ajustado */
+  margin: 0 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 0.875rem; /* Tamaño de letra reducido */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.btn_delete{
+  cursor: pointer;
+}

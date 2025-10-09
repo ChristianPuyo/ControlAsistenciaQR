@@ -1,0 +1,146 @@
+.mainContainerForm {
+  display: flex;
+}
+
+.box {
+  flex: 1; /* Esto hace que ambos divs ocupen el mismo espacio */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+}
+
+
+.containerForm {
+ 
+  flex: 1; /* Esto hace que ambos divs ocupen el mismo espacio */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  text-align: center;
+}
+  
+  .sign-in-form .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  .input-field input,
+  .input-field select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field input:focus,
+  .input-field select:focus {
+    border-color: #007bff;
+  }
+  
+  .btn.solid {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn.solid:hover {
+    background: #0056b3;
+  }
+  
+
+
+
+
+
+/* Styles for the form container */
+.registration-form {
+  background-color: #f9f9f9; /* Light background for clarity */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 12px; /* Reduced padding */
+  max-width: 500px; /* Increased width */
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif; /* Clean and simple font */
+}
+
+/* Title styling */
+.form-title {
+  font-size: 1.2em; /* Slightly smaller font size */
+  color: #333333; /* Darker grey for text */
+  margin-bottom: 8px; /* Reduced margin */
+  text-align: center;
+}
+
+/* Styling for input fields and select elements */
+.form-group {
+  margin-bottom: 8px; /* Reduced margin */
+}
+
+/* Labels styling */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px; /* Reduced margin */
+  color: #555555; /* Medium grey for label text */
+}
+
+/* Input fields and select box styling */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 6px; /* Reduced padding */
+  border: 1px solid #cccccc; /* Light grey border */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 0.85em; /* Slightly smaller font size */
+  color: #333333; /* Dark grey for text */
+}
+
+/* Input field focus effect */
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+}
+
+/* Button styling */
+.submit-btn {
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 8px 18px; /* Slightly increased padding */
+  border-radius: 4px;
+  font-size: 0.9em; /* Slightly smaller font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

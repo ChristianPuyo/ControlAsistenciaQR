@@ -1,0 +1,11 @@
+.containerEnviar {
+    display: flex;
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    margin-top: 30px;
+   
+}
+  
+  .div1, .div2 {
+    flex: 1; /* Ambos divs ocuparán el mismo espacio */
+    height: 100%; /* Asegura que ocupen toda la altura de la ventana */
+  }
